@@ -1,0 +1,267 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  background-color: #141414;
+  color: #aa8ccb;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+section {
+  padding: 2%;
+  margin-bottom: 5px;
+}
+
+nav {
+  padding: 2%;
+  margin-bottom: 3%;
+  background-image: url("Img/background.png");
+  background-size: 20%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+a {
+  color: #aa8ccb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #7919d3;
+}
+
+.login {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h1 {
+  margin: 0;
+  color: rgb(245, 232, 255);
+  font-size: 3vw;
+}
+
+h2 {
+  margin-top: 5%;
+}
+
+h3 {
+  margin: 0%;
+}
+
+.categName {
+  padding: 15px;
+  font-size: 30px;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.taskBlock {
+  width: 50%;
+}
+
+.checkbox {
+  max-width: 10%;
+  accent-color: rgb(143, 93, 176);
+}
+
+.filtres {
+  margin-bottom: 10px;
+}
+
+.bear {
+  max-width: 50%;
+  height: auto;
+}
+
+.bear img {
+  max-width: 75%;
+}
+
+.pet {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  text-align: justify;
+}
+
+.form {
+  position: relative;
+  transform: translate(50%, 20%);
+  height: 50%;
+  width: 50%;
+}
+
+.form input {
+  margin: 10px;
+  width: 300px;
+}
+
+.form button {
+  margin: 10px;
+}
+
+.createTask h4 {
+  font-size: larger;
+  text-decoration: underline;
+}
+
+.createCategory h4 {
+  font-size: larger;
+  text-decoration: underline;
+}
+
+.overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  cursor: pointer;
+  color: white;
+}
+
+.insideoverlay {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(58, 14, 99, 0.9);
+  transform: translate(50%, 50%);
+  text-align: center;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.overlayContent {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.crossTitle {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding-right: 8%;
+  padding-left: 10%;
+  margin-bottom: 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formNewTask {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+button {
+  border: none;
+  text-decoration: none;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  cursor: pointer;
+  width: fit-content;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #d9bcf5;
+  color: #360275;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c299e6;
+}
+
+.button delete {
+  margin-bottom: 10px;
+}
+
+.formNewTask input[type="text"] {
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 10px;
+  margin-bottom: 5%;
+  width: 90%;
+}
+
+.formNewTask input[type="date"] {
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 10px;
+  margin-bottom: 5%;
+  width: 90%;
+}
+
+.about {
+  text-indent: 1em;
+}
+
+footer {
+  bottom: 0;
+  height: 5%;
+  background-color: #141414;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.smaller {
+  font-size: smaller;
+  padding-left: 10px;
+
+}
