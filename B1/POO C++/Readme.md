@@ -165,6 +165,7 @@ cyberpunk-simulator/
 - Créer des PNJ ennemis générés aléatoirement
 - Ajouter une boucle de jeu principale
 - Implémenter un système de progression par niveau
+- Système d'armes équipables (composition d'objets)
 
 ## Compétences démontrées
 
@@ -173,4 +174,5 @@ cyberpunk-simulator/
 - Gestion de fichiers (lecture/écriture)
 - Génération de nombres aléatoires
 - Manipulation de la STL
+
 - Architecture logicielle modulaire
