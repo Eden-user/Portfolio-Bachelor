@@ -3,6 +3,8 @@
 Réimplémentation du jeu électronique Simon sur ESP32 avec écran OLED et boîtier imprimé en 3D.  
 Projet de fin d'année en B1 à l'École Hexagone.
 
+![Montage_boitier_ouvert](https://github.com/user-attachments/assets/0c6cdb48-a506-4494-8618-b4b5e6c7f726)
+
 </div>
 
 ---
@@ -116,10 +118,10 @@ Fonctions principales :
 <details>
 <summary><strong>Électronique</strong></summary>
 
-- Montage avec breadboard ou PCB
+- Montage avec breadboard
 - Boutons en pull-up
 - Contrôle de LEDs
-- Buzzer piézo pour le son
+- Buzzer passif pour le son
 
 </details>
 
