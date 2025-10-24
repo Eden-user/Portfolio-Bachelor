@@ -1,2 +1,0 @@
-Cours de JAVA BDEV2 à l'école IPI Lyon.
-BEN CHIKHA SOUKEINA
