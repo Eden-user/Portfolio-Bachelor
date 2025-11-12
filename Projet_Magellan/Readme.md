@@ -32,3 +32,5 @@ Création d'une carte interactive en SVG représentant le voyage de Magellan, ad
 Développement d'une application tablette avec système de feuilletage (Turn.js) permettant de parcourir le livre en version digitale. L'application fonctionne entièrement hors ligne sur une ancienne tablette Android.
 <h3>Étape 3 - Intégration carte et livre (en cours) </h3><br>
 Intégration de la carte SVG dans l'application avec des points d'intérêt cliquables sur le trajet de Magellan. Un clic sur un landmark ouvre le livre au chapitre correspondant. Développement de fonctionnalités supplémentaires : jeux interactifs, navigation par chapitres, galerie photos du spectacle.
+
+Il suffit de lancer un serveur local (j'utilise xxamp) puis d'ouvrir le dossier afin que l'papli se lance sur PC.
