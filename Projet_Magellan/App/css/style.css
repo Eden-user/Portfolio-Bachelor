@@ -1,30 +1,111 @@
 html,
 
 body {
-    margin: 0;
+    margin: 5px 5px;
     padding: 0;
-    background: #333;
+    background: #ffffff;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
     overflow: hidden;
 }
 
+nav {
+    width: 100vw;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav a {
+    padding: 8px;
+    background-color: rgb(24, 24, 24);
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Zodiak-Black;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 10px;
+}
+
 .toggle {
     display: none;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .toggle a {
-    display: block;
-    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    font-size: medium;
+}
+
+h1 {
+    font-family: Zodiak-Bold;
+    margin-top: 5px;
+}
+
+h2 {
+    font-family: Zodiak-Bold;
+}
+
+p {
+    font-family: Zodiak-Light;
+    font-size: larger;
+}
+
+.chapters {
+    height: calc(100vh - 80px);
+    width: 90%;
+    margin: auto;
+}
+
+.chapters-flex {
+    height: 98%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 18%;
+}
+
+.flex-item.z {
+        justify-content: space-between;
+}
+
+.sub-flex-item {
+    height: 100%;
+}
+
+.chapterItem a {
+    font-family: Zodiak-Regular;
+    font-size: large;
+    color: rgb(9, 0, 59);
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.chapterItem.T {
+    padding-top: 10px;;
 }
 
 #flipbook {
-    width: 1000px;
-    height: 600px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    width: 80vw;
+    height: calc(100vh - 60px);
 }
 
 #flipbook .page {
@@ -47,7 +128,7 @@ body {
     color: white;
     background: rgba(0, 0, 0, 0.4);
     width: 60px;
-    height: 80px;
+    height: 90px;
     line-height: 80px;
     text-align: center;
     z-index: 1000;
@@ -65,8 +146,9 @@ body {
 }
 
 .map-container {
-overflow: hidden;
-    height: calc(100vh - 50px);
+    overflow: hidden;
+    height: calc(100vh - 60px);
+    width: 99vw;
 }
 
 .map {
@@ -74,6 +156,49 @@ overflow: hidden;
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+video {
+    overflow: hidden;
+    height: 85vh;
+}
+
+.doc {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: calc(100vh - 60px);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.article p {
+    width: 50%;
+}
+
+.article img {
+    height: 200px;
+}
+
+.dates {
+    border: 1px solid black;
+    width: 50%;
+    align-self: center;
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.headDoc {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
 }
 
 /*add media queries for responsiveness*/

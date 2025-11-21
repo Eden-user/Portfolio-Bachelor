@@ -1,7 +1,6 @@
 export function aProposHTML() {
     return `
-<div class="a-propos">
-  <h2>À Propos de Magellan</h2>
+  <h1>À Propos de Magellan</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nunc turpis, euismod sit amet vestibulum non,
     pretium id odio. Praesent lobortis vulputate purus quis feugiat. Etiam finibus nec magna non maximus. Nunc vel nulla
     volutpat, accumsan diam sit amet, tempor ante. Maecenas non sapien quis est elementum euismod. Aenean in arcu
@@ -40,6 +39,5 @@ export function aProposHTML() {
     Pellentesque pharetra finibus nibh, nec tincidunt turpis ultricies ut. Fusce a magna vel velit pulvinar elementum
     sit amet sed mi. Donec et rutrum purus, nec lobortis leo. In convallis est eros, at malesuada justo commodo eget.
   </p>
-</div>
     `;
 }   

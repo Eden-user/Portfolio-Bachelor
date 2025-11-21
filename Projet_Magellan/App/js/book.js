@@ -15,7 +15,7 @@ function initializeBook(startPage, endPage) {
        for (var i = 0; i <= endPage; i++) {
       var $page = $('<div />', {
         'class': 'page',
-        'style': 'width: 500px; height: 600px;'
+        'style': 'width: 50%; height: 100%;'
       });
       if (i < 100) {
       var imgPath = 'img/pages/0' + i + '.jpg';
@@ -31,8 +31,6 @@ function initializeBook(startPage, endPage) {
     }
 
     $fb.turn({
-      width: 1000,
-      height: 600,
       autoCenter: true,
       display: 'double',
       acceleration: true,

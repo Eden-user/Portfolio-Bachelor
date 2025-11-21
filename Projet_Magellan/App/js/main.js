@@ -1,6 +1,8 @@
 import { aProposHTML } from './aPropos.js';
 import { createMapHTML, mapBook } from './map.js';
 import { showBookView } from './book.js';
+import { playVideo } from './vid.js';
+import { navTools, gdesEtapes } from './docs.js';
 import { getChapters, getThemes, openChapter } from './useChapters.js';
 
 
@@ -27,15 +29,14 @@ function setupToggleMenus() {
             const toggle = document.getElementById(targetId);
 
             if (toggle) {
-                // Toggle entre display block et none
-                if (toggle.style.display === 'block') {
-                    toggle.style.display = 'none';
+                // Toggle entre display flex et none
+                if (toggle.style.display === 'flex') {
+                    closeToggle();
                 } else {
                     // Fermer tous les autres sous-menus d'abord
                     closeToggle();
+                    toggle.style.display = 'flex';
                 };
-                // Ouvrir celui-ci
-                toggle.style.display = 'block';
             }
         }
         );
@@ -80,7 +81,7 @@ export function setupNavigation() {
                     closeToggle()
                     break;
                 case 'vid':
-                    showBookView();
+                    container.innerHTML = playVideo();
                     closeToggle()
                     break;
                 case 'exp':
@@ -94,13 +95,11 @@ export function setupNavigation() {
                     closeToggle()
                     break;
                 case 'doc1':
-                    aProposHTML();
-                    container.innerHTML = aProposHTML();
+                    container.innerHTML = navTools();
                     closeToggle()
                     break;
                 case 'doc2':
-                    aProposHTML();
-                    container.innerHTML = aProposHTML();
+                    container.innerHTML = gdesEtapes();
                     closeToggle()
                     break;
                 case 'doc3':
