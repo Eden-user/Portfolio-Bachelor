@@ -1,7 +1,7 @@
 # Portfolio - Eden Malhis
 ## Développeuse web et logiciel
 Étudiante en 2ème année de Bachelor Informatique à IPI Lyon<br>
-[LinkedIn](www.linkedin.com/in/nadia-malhis-997b6432b) • [Email](eden.malhis@gmail.com) • Portfolio (bientôt !)
+[LinkedIn](https://www.linkedin.com/in/eden-malhis/) • [Email](eden.malhis@gmail.com) • Portfolio (bientôt !)
 </div>
 
 ## À propos
