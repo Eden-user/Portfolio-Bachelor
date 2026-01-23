@@ -107,7 +107,7 @@ Site web pour la Compagnie de la Lanterne Magique (prévu)
 # Contact
 
 Email : eden.malhis@gmail.com<br>
-LinkedIn : www.linkedin.com/in/nadia-malhis-997b6432b<br>
+LinkedIn : https://www.linkedin.com/in/eden-malhis/<br>
 Localisation : Lyon, France
 
 
