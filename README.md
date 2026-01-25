@@ -50,6 +50,11 @@ Laravel / Symfony
 
 ## Année 2 - IPI Lyon (2024-2025)
 
+### Projet MESI
+
+Visible dans l'organisation [STORG-TEAM](https://github.com/Storg-Team?view_as=public).
+Projet libre en groupe : developpement d'un outils de compression de fichiers sous forme d'images (+ décompression naturellement). Consiste en un client lourd compatible Windows, Linux et OSX, un site web et une application mobile. 
+
 ### Projets à venir :
 
 
@@ -91,6 +96,7 @@ Statut : En développement (Étape 3/3)
 ## Projets à venir
 
 Site web pour la Compagnie de la Lanterne Magique (prévu)
+Site web pour DreamsofRainbow.
 
 
 # Parcours
