@@ -16,19 +16,20 @@ Dynamique, autonome et curieuse, je cherche constamment à apprendre et à relev
 HTML / CSS
 PHP
 SQL (MySQL)
+React
 
 <strong>Bases solides</strong><br>
 JavaScript (vanilla, jQuery)
 Python
 C / C++
+Java
+Typescript
 
 </td>
 <td valign="top" width="50%">
 <strong>En cours d'apprentissage (B2)</strong>
 
-Java
-React / Angular / Next.js
-TypeScript
+Angular / Next.js
 C# / .NET
 Laravel / Symfony
 
@@ -43,7 +44,6 @@ Laravel / Symfony
 - Modélisation 3D - Conception de boîtiers
 - Base de données - Conception et requêtes SQL
 - Responsive design - CSS, Flexbox, Grid
-
 
 
 # Projets académiques
@@ -85,7 +85,7 @@ Projet de cours B1
 Clone de Flappy Bird avec système de score, menu de démarrage, détection de collisions et physique simple. Génération procédurale des obstacles.<br>
 Projet de cours B1
 
-# Projets professionnels (Micro-entreprise)
+# Projets professionnels (ou Micro-entreprise)
 ## [Magellan](Projet_Magellan)
 <strong>HTML • CSS • JavaScript • Turn.js • SVG</strong><br>
 Application tablette interactive pour la Compagnie de la Lanterne Magique. Carte SVG du voyage de Magellan, livre digital feuilletable et navigation contextuelle.<br>
@@ -93,11 +93,18 @@ Client : Compagnie de la Lanterne Magique<br>
 Livrables : Application tablette hors ligne, carte interactive<br>
 Statut : En développement (Étape 3/3)
 
+## Mon site web perso / portfolio
+
+Il est en cours, cf mon repo [portfolio](https://github.com/Eden-user/Portfolio).
+Fait en React/JS/Node, il sera hébergé sur mon serveur O2Switch.
+Je compte également ajouter un formulaire de contact personnalisé en PHP, en gérant toute la sécurité (injections...) et le transfert automatisé vers la boite mail correspondante selon s'il s'agit d'offres de stage/alternance/emploi ou de commandes de project pour mon entreprise.
+Et si les choses se passent vraiment bien, vous aurez la chance d'y trouver un mini jeu très qualitatif, j'espère.
+
 ## Projets à venir
 
-Site web pour la Compagnie de la Lanterne Magique (prévu)
-Site web pour DreamsofRainbow.
-
+Site web (vitrine) pour la Compagnie de la Lanterne Magique (prévu)
+Site web (e-commerce) pour DreamsofRainbow.
+Site web (vitrine) pour une entreprise de diagnostic immobilier
 
 # Parcours
 2025 - Aujourd'hui : Bachelor Informatique B2 - IPI Lyon<br>
