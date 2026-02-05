@@ -1,7 +1,7 @@
 # Portfolio - Eden Malhis
 ## Développeuse web et logiciel
 Étudiante en 2ème année de Bachelor Informatique à IPI Lyon<br>
-[LinkedIn](https://www.linkedin.com/in/eden-malhis/) • [Email](eden.malhis@gmail.com) • Portfolio (bientôt !)
+[LinkedIn](https://www.linkedin.com/in/eden-malhis/) • [Email](eden.malhis@gmail.com) • [Portfolio](https://eidamned.fr) (WIP)
 </div>
 
 ## À propos
@@ -96,7 +96,7 @@ Statut : En développement (Étape 3/3)
 ## Mon site web perso / portfolio
 
 Il est en cours, cf mon repo [portfolio](https://github.com/Eden-user/Portfolio).
-Fait en React/JS/Node, il sera hébergé sur mon serveur O2Switch.
+Fait en React/JS/Node, il est hébergé sur mon serveur O2Switch.
 Je compte également ajouter un formulaire de contact personnalisé en PHP, en gérant toute la sécurité (injections...) et le transfert automatisé vers la boite mail correspondante selon s'il s'agit d'offres de stage/alternance/emploi ou de commandes de project pour mon entreprise.
 Et si les choses se passent vraiment bien, vous aurez la chance d'y trouver un mini jeu très qualitatif, j'espère.
 
@@ -121,6 +121,7 @@ Site web (vitrine) pour une entreprise de diagnostic immobilier
 
 Email : eden.malhis@gmail.com<br>
 LinkedIn : https://www.linkedin.com/in/eden-malhis/<br>
+Portfolio : https://eidamned.fr<br>
 Localisation : Lyon, France
 
 
