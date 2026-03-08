@@ -24,10 +24,6 @@ Simulateur RPG en ligne de commande où le joueur incarne un mercenaire dans un 
 <td><strong>POO</strong></td>
 <td>Héritage, polymorphisme, encapsulation</td>
 </tr>
-<tr>
-<td><strong>STL</strong></td>
-<td>Vectors, strings, file streams</td>
-</tr>
 </table>
 
 ## Fonctionnalités
